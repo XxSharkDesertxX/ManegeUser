@@ -1,5 +1,5 @@
 <template>
-  <v-simple-table>
+  <v-simple-table >
     <template v-slot:default>
       <thead>
         <tr>
@@ -7,17 +7,17 @@
             Name
           </th>
           <th class="text-left">
-            Calories
+            Age
           </th>
         </tr>
       </thead>
       <tbody>
         <tr
-          v-for="item in desserts"
+          v-for="item in one"
           :key="item.name"
         >
-          <td>{{ item.name }}</td>
-          <td>{{ item.calories }}</td>
+          <td><nuxt-link :to="`/One/${item.id}`">{{ item.name }}</nuxt-link></td>
+          <td>{{ item.age }}</td>
         </tr>
       </tbody>
     </template>
@@ -29,15 +29,21 @@ import { mapState } from 'vuex'
   export default {
     data () {
       return {
-        
       }
     },
     computed:{
-        
-    }
+        ...mapState([
+          'one'
+        ])
+    },
+      created(){
+    console.log(this.$route);
+  }
   }
 </script>
 
-<style>
-
+<style lang="css">
+    td{
+      cursor: pointer;
+    }
 </style>

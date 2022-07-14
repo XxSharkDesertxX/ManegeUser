@@ -2,7 +2,7 @@
   <div>
         <ul>
             <li><nuxt-link to="/" class="nuxtLink" >Home</nuxt-link></li>
-            <li><nuxt-link to="/One" class="nuxtLink" >One</nuxt-link></li>
+            <li><nuxt-link to="/One" class="nuxtLink" >Mail</nuxt-link></li>
             <li><nuxt-link to="/Tow" class="nuxtLink" >Tow</nuxt-link></li>
         </ul>
   </div>

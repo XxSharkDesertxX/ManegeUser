@@ -1,26 +1,38 @@
 export default[
     {
         name: 'Ali',
-        calories: 19,
+        age: 19,
+        id:0,
+        img:"https://th.bing.com/th/id/R.898a454aed8eda454fd4ea6d11d27ebb?rik=KxVePyS8%2bDRP%2bA&pid=ImgRaw&r=0"
       },
       {
         name: 'hosen',
-        calories: 12,
+        age: 12,
+        id:1,
+        img:"https://th.bing.com/th/id/R.898a454aed8eda454fd4ea6d11d27ebb?rik=KxVePyS8%2bDRP%2bA&pid=ImgRaw&r=0"
       },
       {
         name: 'amir',
-        calories: 26,
+        age: 26,
+        id:2,
+        img:"https://th.bing.com/th/id/R.898a454aed8eda454fd4ea6d11d27ebb?rik=KxVePyS8%2bDRP%2bA&pid=ImgRaw&r=0"
       },
       {
         name: 'babak',
-        calories: 30,
+        age: 30,
+        id:3,
+        img:"https://th.bing.com/th/id/R.898a454aed8eda454fd4ea6d11d27ebb?rik=KxVePyS8%2bDRP%2bA&pid=ImgRaw&r=0"
       },
       {
         name: 'mehdi',
-        calories: 6,
+        age: 6,
+        id:4,
+        img:"https://th.bing.com/th/id/R.898a454aed8eda454fd4ea6d11d27ebb?rik=KxVePyS8%2bDRP%2bA&pid=ImgRaw&r=0"
       },
       {
         name: 'masod',
-        calories: 35,
+        age: 35,
+        id:5,
+        img:"https://th.bing.com/th/id/R.898a454aed8eda454fd4ea6d11d27ebb?rik=KxVePyS8%2bDRP%2bA&pid=ImgRaw&r=0"
       },
 ];

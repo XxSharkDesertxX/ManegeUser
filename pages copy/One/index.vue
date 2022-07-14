@@ -1,12 +1,15 @@
 <template>
-  <div id="body">
-      <h1>in the name of god </h1>
-      <br><br>
-  </div>
+    <div id="body">
+        <Table/>
+    </div>
 </template>
-<script>
-export default {
 
+<script>
+import Table from '../../components/Table'
+export default {
+    components:{
+        Table
+    }
 }
 </script>
 
@@ -15,6 +18,5 @@ export default {
       width: 100%;
       height: 80vh; display: flex;
       justify-content: center; align-items: center;
-      flex-direction: column;
     }
 </style>

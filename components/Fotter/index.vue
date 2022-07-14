@@ -11,9 +11,11 @@ export default {
 
 <style lang="css" scoped>
     div{
-        height: 10vh;
+        height: 10vh; width: 100%;
         background: aliceblue;
         display: flex; justify-content: start;
+        position: absolute;
+        bottom: 0;
     }
     h2{
         margin-left: 2rem;

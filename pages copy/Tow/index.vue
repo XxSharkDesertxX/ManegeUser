@@ -1,9 +1,11 @@
 <template>
-  <div id="body">
-      <h1>in the name of god </h1>
-      <br><br>
-  </div>
+    <div id="body">
+        <h2>
+            Tow page is 
+        </h2>
+    </div>
 </template>
+
 <script>
 export default {
 
@@ -15,6 +17,5 @@ export default {
       width: 100%;
       height: 80vh; display: flex;
       justify-content: center; align-items: center;
-      flex-direction: column;
     }
 </style>
