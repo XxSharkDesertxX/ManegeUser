@@ -4,7 +4,7 @@
       <div> 
           <Nuxt/>
       </div>
-      <Fotter/>
+      <Fotter class="footer"/>
   </div>
 </template>
 
@@ -28,5 +28,9 @@ export default {
   *{
     margin: 0; padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .footer{
+    position: relative;
+    bottom: 0;
   }
 </style>

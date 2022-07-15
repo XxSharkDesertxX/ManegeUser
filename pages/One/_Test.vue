@@ -42,7 +42,7 @@ export default {
     user-select: none;
   }
   div{
-    height: 75vh;
+    height: 80vh;
     display: flex; justify-content: center; align-items: center;
     flex-direction: column;
   }

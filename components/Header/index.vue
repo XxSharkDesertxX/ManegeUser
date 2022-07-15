@@ -2,8 +2,8 @@
   <div>
         <ul>
             <li><nuxt-link to="/" class="nuxtLink" >Home</nuxt-link></li>
-            <li><nuxt-link to="/One" class="nuxtLink" >Mail</nuxt-link></li>
-            <li><nuxt-link to="/Tow" class="nuxtLink" >Tow</nuxt-link></li>
+            <li><nuxt-link to="/One" class="nuxtLink" >Users</nuxt-link></li>
+            <li><nuxt-link to="/Tow" class="nuxtLink" >All</nuxt-link></li>
         </ul>
   </div>
 </template>
