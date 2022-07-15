@@ -1,7 +1,7 @@
 <template>
-  <v-simple-table >
-    <template v-slot:default>
-      <thead>
+  <v-simple-table>
+    <template v-slot:default >
+      <thead >
         <tr>
           <th class="text-left">
             Name
@@ -45,5 +45,7 @@ import { mapState } from 'vuex'
 <style lang="css">
     td{
       cursor: pointer;
+      width: 20rem;
+      text-align: center;
     }
 </style>
