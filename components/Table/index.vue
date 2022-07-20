@@ -24,7 +24,7 @@
             {{ item.age }}
           </td>
             <td>
-                <v-btn x-small class="trash" @click="removes">
+                <v-btn x-small class="trash" @click="removes(item.id)">
                   <v-icon>mdi-delete</v-icon>
                 </v-btn>
             </td>
@@ -40,6 +40,7 @@ import { mapActions } from 'vuex';
   export default {
     data () {
       return {
+        iduser:null
       }
     },
     computed:{
@@ -56,8 +57,9 @@ import { mapActions } from 'vuex';
           'remove'
       ]),
 
-      removes(){
-        let data = 1;
+      removes(item){
+        let data = item;
+        console.log(data);
         this.remove(data)
      }
     },
