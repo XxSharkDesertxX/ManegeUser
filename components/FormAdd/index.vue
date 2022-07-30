@@ -80,11 +80,15 @@ import { mapState } from "vuex";
             const name = this.firstname;
             const age = this.ages;
             const id = this.one.length;
+            
+
+          
             const paylod = {
                 name,
                 age,
                 id,
-                img:"https://th.bing.com/th/id/R.898a454aed8eda454fd4ea6d11d27ebb?rik=KxVePyS8%2bDRP%2bA&pid=ImgRaw&r=0"
+                img:"https://th.bing.com/th/id/R.898a454aed8eda454fd4ea6d11d27ebb?rik=KxVePyS8%2bDRP%2bA&pid=ImgRaw&r=0",
+                
             }
 
          this.addUser(paylod)

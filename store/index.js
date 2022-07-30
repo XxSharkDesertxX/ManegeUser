@@ -10,9 +10,15 @@ export default()=>{
             mutations:{
                 appenduser(state,paylod){
                     state.one.push(paylod);
+                    localStorage.setItem("newuser", JSON.stringify(state.one));
                 },
                 removes(state,data){
                     state.one.splice(data,1);
+                    localStorage.setItem("newuser", JSON.stringify(state.one));
+                },
+                save(state){
+                    let data = JSON.parse(localStorage.getItem("newuser"));
+                    state.one = data;
                 }
 
 
@@ -25,6 +31,10 @@ export default()=>{
 
                 remove(context, data){
                     context.commit('removes', data);
+                },
+
+                save(context){
+                    context.commit('save');
                 }
 
             },

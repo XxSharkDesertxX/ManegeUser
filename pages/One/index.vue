@@ -27,6 +27,9 @@ export default {
             return this.isform  = !this.isform
         }
     },
+    mounted() {
+      console.log(true)
+    },
 }
 </script>
 

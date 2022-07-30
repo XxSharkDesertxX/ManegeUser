@@ -48,13 +48,14 @@ import { mapActions } from 'vuex';
           'one'
         ]),
     },
-      created(){
+    created(){
     console.log(this.$route);
     },
     methods: {
 
       ...mapActions([
-          'remove'
+          'remove',
+          'save'
       ]),
 
       removes(item){
@@ -62,6 +63,10 @@ import { mapActions } from 'vuex';
         console.log(data);
         this.remove(data)
      }
+    },
+    mounted() {
+     this.save();
+      console.log(true)
     },
   }
 </script>
